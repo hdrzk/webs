@@ -8,7 +8,7 @@ const frame = () => {
   if (elapsedTime < waitTime) {
     requestAnimationFrame(frame);
   } else {
-    window.location.href = '/portfolio 3.0/main.html';
+    window.location.href = 'main.html';
   }
 };
 
